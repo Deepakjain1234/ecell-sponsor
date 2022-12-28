@@ -515,3 +515,85 @@ background-attachment:fixed;
             margin-left: -38vw;
 }
 }
+@media screen and (min-width:669px ) and (max-width: 868px){
+    .txt2 {
+            width: 50vw;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 22px;
+            letter-spacing: 0.04em;
+            padding-left: 4vw;
+            color: #898989;
+        }
+                .profile-details {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 12px;
+                    line-height: 26px;
+                    text-align: justify;
+                    letter-spacing: 0.04em;
+                    padding-top: 12vh;
+                    padding-left: 5px;
+                    padding-bottom: 8vh;
+                    color: #FFFFFF;
+                }
+                                swiper-navBtn {
+                                    color: #007aff !important;
+                                    height: 30px !important;
+                                    width: 30px !important;
+                                    padding-top: 27vh !important;
+                                    padding-right: -6vw;
+                                    border-radius:50%;
+}
+.swiper-button-next {
+    right: 9px !important;
+    left: auto;
+    top: 58% !important;
+}
+.swiper-button-prev{
+   
+    top: 58% !important;
+}
+.head1 {
+    display: flex;
+    padding-top: 7vh;
+    padding-left: 32vw;
+}
+.button {
+    border: solid 2px #0C6EE7;
+    height: 8vh;
+    width: 14vw;
+    border-radius: 6px;
+}
+.text {
+    padding: 12px 6px;
+    color: #0C6EE7;
+}
+.head {
+font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 90px;
+    margin-top: 30vh;
+    text-align: center;
+    letter-spacing: 0.025em;
+    padding: 0vw 20vw;
+    color: #F1F1F1;
+}
+}
+.sub-head {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19.3788px;
+    line-height: 38px;
+    padding: 5vw 23vw;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #F1F1F1;
+}
+}
