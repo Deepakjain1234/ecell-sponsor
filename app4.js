@@ -86,5 +86,21 @@ const navSlide = () => {
 
   }
 }
+// const market = document.querySelector(".marketing");
+// function toggleMarket(){
+//   market.classList.toggle("marketing-click");
+// }
+function toggleMarket(){
+  document.querySelector(".fa-angle-down").classList.toggle("angle-click");
 
+  document.querySelector(".fa-angle-down").style.transition = "all 1s";
+}
 
+$(document).ready(function(){
+  $(".market-button").click(function(){
+    $(".marketing").slideToggle(1000);
+  });
+});
+  // $(".btn2").click(function(){
+  //   $("p").slideDown();
+  // });
