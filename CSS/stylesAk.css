@@ -879,10 +879,10 @@ ul li::before {
         font-size: 13px;
       }
       .write-to-us{
-        font-size: 30px;
+        font-size: 25px;
       }
       .contact-us{
-        font-size: 30px;
+        font-size: 25px;
       }
       .foot-address{
         font-size: 13px;
@@ -892,10 +892,10 @@ ul li::before {
       }
       .img{
         background-image: url(../Images/mobile\ view\ graph.png);
-         transform: scale(0.9);
+         transform: scale(0.98);
         height: 250px;
         width: 250px;
-        margin-top: 20px;
+        margin-top: 35px;
         margin-bottom: 30px;
       }
       .marketing{
@@ -907,7 +907,14 @@ ul li::before {
         font-size: 30px;
       }
       .marketing-list li{
-        font-size: 15px;
-        line-height: 23px;
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 9.76694px;
+line-height: 15px;
+text-align: justify;
+letter-spacing: 0.01em;
+
+color: #F4F4F4;
       }
 }
