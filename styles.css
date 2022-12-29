@@ -70,14 +70,14 @@ padding: 0vw 20vw;
         color: #F1F1F1;
 }
 .ayu-sponsor{
-    height:106vh;
+    
     width:auto;
         background: url(whysponsorus.png);
             overflow-x: hidden;
             background-repeat: no-repeat;
             background-size: cover;
       
-    
+    padding-bottom: 80px;
 }
 .head1
 {
@@ -527,6 +527,7 @@ color: #0C6EE7;
     padding-top: 3vh;
     display: flex;
     flex-direction:column-reverse;
+    margin-top: 30px;
 }
 
 
@@ -543,6 +544,7 @@ color: #0C6EE7;
         color: #898989;
         margin-top: 30vh;
         text-align: justify;
+        padding-top: 35px;
     }
 
 
