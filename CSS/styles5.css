@@ -70,7 +70,7 @@ font-size: 15px;
 
 
 color: #FFFFFF;
-  background-color: rgba(0, 0, 0, 0.351);
+  background-color: transparent;
   width: 100vw;
 }
 
@@ -145,7 +145,7 @@ li a :hover{
   nav {
     overflow-x: hidden;
     backdrop-filter: unset !important;
-    background-color:  rgba(0, 0, 0, 0.351);
+    background-color:  transparent;
     height: 72px;
   }
 
