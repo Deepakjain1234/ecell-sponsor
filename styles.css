@@ -298,10 +298,11 @@ height: 60vh;
         .homepg {
             width: 100vw;
             height: 100vh;
-            background: url(landingmob.png);
+            background-image: url(landingmob.png);
             overflow: hidden;
             background-repeat: no-repeat;
             background-size: cover;
+         background-color: #000;
             background-attachment: fixed;
         }
                 .heading {
