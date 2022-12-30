@@ -4,11 +4,12 @@ body{
 .homepg {
     width:100vw;
     height:100vh;
-    background: url(./bg-new-30dec.png);
+    background-image: url(./bg-new-30dec.png);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-color: black;
 }
 .heading
 {
