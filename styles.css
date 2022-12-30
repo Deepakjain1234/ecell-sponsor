@@ -4,7 +4,7 @@ body{
 .homepg {
     width:100vw;
     height:100vh;
-    background: url(bgnew.png);
+    background: url(./bg-new-30dec.png);
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;

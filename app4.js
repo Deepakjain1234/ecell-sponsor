@@ -37,6 +37,7 @@ function scrollFunction() {
       logo.height = "60px";
       logo.width = "60px";
       navItem.marginTop = "22px";
+      nav.backgroundColor= "#00000084";
      
       
     } else {
@@ -44,8 +45,18 @@ function scrollFunction() {
       logo.height = "94px";
       logo.width = "94px";
       navItem.marginTop = "45px";
+      nav.backgroundColor="transparent";
       
       
+    }
+  }
+  else{
+    let nav = document.getElementsByTagName("nav")[0].style;
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
+      nav.backgroundColor= "#00000084";
+    }
+    else{
+      nav.backgroundColor="transparent";
     }
   }
 }
